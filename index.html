@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AS Cinematic | Professional Editor</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1>AS Cinematic</h1>
+    <p>Cinematic Video Editing | Reels | Weddings | Promo Films</p>
+    <a href="#portfolio" class="btn">View My Work</a>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2>About Me</h2>
+  <p>
+    I transform raw footage into powerful cinematic stories.
+    Specializing in reels, wedding films, promotional videos
+    and professional color grading.
+  </p>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="portfolio">
+  <h2>My Work</h2>
+  <div class="gallery">
+    <img src="images/work1.jpg" onclick="openLightbox(this)">
+    <img src="images/work2.jpg" onclick="openLightbox(this)">
+    <img src="images/work3.jpg" onclick="openLightbox(this)">
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <h2>Contact Me</h2>
+  <p>Let's create something cinematic together.</p>
+
+  <div class="contact-buttons">
+    <a href="https://wa.me/919019691515" target="_blank" class="whatsapp">
+      <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+
+    <a href="https://instagram.com/ascinematic08" target="_blank" class="instagram">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
